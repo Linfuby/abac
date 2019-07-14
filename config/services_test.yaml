@@ -1,0 +1,6 @@
+services:
+    _defaults:
+        public: true
+
+    test.App\Repository\TargetRepository: '@App\Repository\TargetRepository'
+    test.App\Repository\RuleSetRepository: '@App\Repository\RuleSetRepository'
